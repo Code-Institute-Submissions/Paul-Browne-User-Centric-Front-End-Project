@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cabin', sans-serif;
   }
   
 
@@ -11,8 +13,8 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: rgb(67, 95, 81),;
+    background-color: rgba(67, 95, 81, 0.96);
     overflow-y: hidden;
     transition: 0.5s;
     
@@ -29,14 +31,16 @@ body {
   .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
-    color: #818181;
+    font-size: 40px;
+    color: #d7d7c1;
     display: block;
     transition: 0.3s;
+    text-transform: uppercase;
   }
   
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
+    text-shadow: 0 0 5px #fff;
   }
   
   .overlay .closebtn {
@@ -104,9 +108,17 @@ body {
 .footer a {
     font-size: 4rem;
     padding: 4rem;
-    color: #ffcc99;
-    
+    color: #999966;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
+.footer a:hover {
+    color: #f5f5f0;
+}
+
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
