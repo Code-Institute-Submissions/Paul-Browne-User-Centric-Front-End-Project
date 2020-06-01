@@ -104,7 +104,7 @@ body {
 .footer a {
     font-size: 4rem;
     padding: 4rem;
-    color: orangered;
+    color: #ffcc99;
     
 }
   @media screen and (max-height: 450px) {
@@ -133,6 +133,6 @@ body {
         margin-bottom: 4rem;
     }
     .footer a {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 }
