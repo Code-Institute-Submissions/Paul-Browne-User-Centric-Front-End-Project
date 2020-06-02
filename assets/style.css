@@ -125,11 +125,31 @@ body {
     padding-top: 100px;
 }
 
+
+/*-----Jumbotron---*/
 .jumbotron {
     width: 61%;
-    
 }
 
+
+.jumbotron h1 {
+    text-transform: uppercase;
+}
+
+/*------Section Footer---*/
+section {
+    background-color: #666699;
+    height: 5rem;
+}
+
+section a {
+    font-size: 3rem;
+    padding: 20px;
+    color: #999966;
+}
+ section a:hover {
+     color: #f5f5f0;
+ }
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
