@@ -137,6 +137,7 @@ body {
     background-size: cover;
     background-position: center center;
     z-index: -100;
+    overflow: scroll;
   }
 
 
@@ -147,7 +148,6 @@ body {
     margin-top: 100px;
     top: 20%;
     color: white;
-    text-transform: uppercase;
     color: #000;
 }
 
