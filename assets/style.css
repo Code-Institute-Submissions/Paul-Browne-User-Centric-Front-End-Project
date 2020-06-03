@@ -218,6 +218,14 @@ video {
   z-index: -100;
 }
 
+form {
+    position: fixed;
+    top: 40%;
+    width: 50%;
+    
+    
+    
+}
 
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
@@ -271,7 +279,9 @@ video {
 
       video {
         padding-bottom: 4rem;
-       
-        
+    }
+
+    form {
+        width: auto;
     }
 }
