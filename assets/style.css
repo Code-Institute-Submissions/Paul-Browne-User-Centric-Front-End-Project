@@ -194,6 +194,9 @@ section a {
     width: 100%;
   }
 
+/*-------Contact--*/
+
+
 
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
