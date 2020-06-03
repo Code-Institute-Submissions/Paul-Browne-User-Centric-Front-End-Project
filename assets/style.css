@@ -222,9 +222,14 @@ form {
     position: fixed;
     top: 40%;
     width: 50%;
-    
-    
-    
+}
+
+form p {
+    text-transform: uppercase;
+}
+
+form button {
+    width: 30%;
 }
 
   @media screen and (max-height: 450px) {
