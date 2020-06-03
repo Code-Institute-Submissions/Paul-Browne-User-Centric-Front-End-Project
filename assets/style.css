@@ -157,10 +157,7 @@ body {
     text-transform: uppercase;
 }
 
-/*-------Video----*/
-#video {
-   margin-bottom: 4rem;
-}
+
 
 /*------Section Footer---*/
 section {
@@ -179,6 +176,9 @@ section a {
 
 
  /*-----Media Gallery---*/
+ #media-body {
+     background-color: #6b6b47;
+ }
 
  .row {
     display: flex;
@@ -198,6 +198,11 @@ section a {
     vertical-align: middle;
     width: 100%;
   }
+
+  /*-------Video----*/
+video {
+    padding-bottom: 6rem;
+}
 
 /*-------Contact--*/
 
@@ -252,4 +257,10 @@ section a {
         flex: 100%;
         max-width: 100%;
       }
+
+      video {
+        padding-bottom: 4rem;
+       
+        
+    }
 }
