@@ -232,6 +232,12 @@ form button {
     width: 30%;
 }
 
+.card {
+    top: 50%;
+    position: fixed;
+    left: 60%;
+    width: 600px;
+}
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
