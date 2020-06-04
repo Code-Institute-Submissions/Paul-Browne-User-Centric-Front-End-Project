@@ -205,6 +205,12 @@ video {
 }
 
 /*-------Contact--*/
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
 #contact-img {
   background-image: url(https://i.imgur.com/oHjH5tv.jpg);
   position: fixed;
@@ -218,10 +224,14 @@ video {
   z-index: -100;
 }
 
+#contact-form {
+  display: inline-flex;
+  padding-top: 20%;
+}
+
 form {
-    position: fixed;
-    top: 40%;
-    width: 50%;
+    top: 78%;
+    
 }
 
 form p {
@@ -233,11 +243,10 @@ form button {
 }
 
 .card {
-    top: 50%;
-    position: fixed;
-    left: 60%;
-    width: 600px;
+  top: 20%;
 }
+
+
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
