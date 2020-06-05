@@ -126,8 +126,7 @@ body {
 }
 
 #bio-bg {
-    /*background-image: url(https://i.imgur.com/aJ6LatB.png);*/
-    background-color: #009999;
+    background-image: url(https://imgur.com/TN64CR6.jpg);
     position: fixed;
     display: inline-block;
     top: 0;
@@ -138,6 +137,7 @@ body {
     background-position: center center;
     z-index: -100;
     overflow: scroll;
+    filter: url(#blue-wash);
   }
 
 
@@ -147,8 +147,8 @@ body {
     max-width: 100%;
     margin-top: 100px;
     top: 20%;
-    color: white;
-    color: #000;
+    background-color: rgba(43, 94, 62, 0.4);
+    color: #fafafa;
 }
 
 
@@ -208,7 +208,7 @@ video {
 
 #contact-body {
   font-family: 'Cabin', sans-serif;
-  
+
 }
 
 .img-fluid {
