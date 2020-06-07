@@ -257,6 +257,10 @@ form button {
       flex: 50%;
       max-width: 50%;
     }
+
+    .card {
+      right: 28px;
+    }
   }
 @media screen and (max-width: 600px) {
     
@@ -298,6 +302,7 @@ form button {
 
     form {
         width: auto;
+        color: #ff9900;
     }
 
     .card {
