@@ -208,14 +208,13 @@ video {
 
 #contact-body {
   font-family: 'Cabin', sans-serif;
-
+  background-image: url(https://i.imgur.com/h6BgKES.jpg);
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
   margin-top: 3rem;
-  background-color: #aaaa55;
 }
 
 
@@ -233,7 +232,8 @@ form button {
 }
 
 .card {
-  top: 100px;
+  top: 120px;
+  width: 18rem;
 }
 
 
@@ -298,6 +298,7 @@ form button {
     .card {
       margin-bottom: 4rem;
       left: 15px;
+      width: 18rem;
     }
 
     .col-md-5 {
