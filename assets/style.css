@@ -209,6 +209,11 @@ video {
 #contact-body {
   font-family: 'Cabin', sans-serif;
   background-image: url(https://i.imgur.com/h6BgKES.jpg);
+  /*background-position: center center;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-size: cover;*/
+  
 }
 
 .img-fluid {
@@ -297,11 +302,18 @@ form button {
 
     .card {
       margin-bottom: 4rem;
-      left: 15px;
+      left: 25px;
       width: 18rem;
     }
 
     .col-md-5 {
       bottom: 160px;
+    }
+
+    #contact-body {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
     }
 }
