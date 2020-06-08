@@ -137,7 +137,6 @@ body {
     background-position: center center;
     z-index: -100;
     overflow: scroll;
-    filter: url(#blue-wash);
   }
 
 
@@ -178,8 +177,8 @@ section a {
  /*-----Media Gallery---*/
  #media-body {
      background-image: url(https://i.imgur.com/oHjH5tv.jpg);
+     
  }
-
  /*.row {
     display: flex;
     flex-wrap: wrap;
@@ -198,7 +197,7 @@ section a {
     vertical-align: middle;
     width: 100%;
   }*/
- 
+ /*-----Modal gallery from bootsnipp.com/snippets/P2gor---*/
   .btn:focus, .btn:active, button:focus, button:active {
     outline: none !important;
     box-shadow: none !important;
@@ -213,6 +212,10 @@ section a {
     margin-bottom: 15px;
   }
 
+#media-row {
+  margin-top: 5rem;
+  margin-left: 30px;
+}
   /*-------Video----*/
 video {
     padding-bottom: 6rem;
