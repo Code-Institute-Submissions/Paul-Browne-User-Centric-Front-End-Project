@@ -177,17 +177,17 @@ section a {
 
  /*-----Media Gallery---*/
  #media-body {
-     background-color: #6b6b47;
+     background-image: url(https://i.imgur.com/oHjH5tv.jpg);
  }
 
- .row {
+ /*.row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-  }
+  }*/
   
   /* Create four equal columns that sits next to each other */
-  .column {
+  /*.column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
@@ -197,6 +197,20 @@ section a {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+  }*/
+ 
+  .btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   /*-------Video----*/
