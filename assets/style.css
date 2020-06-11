@@ -67,7 +67,20 @@ body {
     background-size: cover;
     background-position: center center;
     z-index: -100;
+    animation-name: img-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    transition: all 1000ms;
   }
+
+  @keyframes img-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
 
 .caption {
     width: 100%;
