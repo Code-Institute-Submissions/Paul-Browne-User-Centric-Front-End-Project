@@ -277,8 +277,10 @@ form p {
     text-transform: uppercase;
 }
 
-form button {
+form .btn {
     width: 30%;
+    background-color: rgba(67, 95, 81, 0.96);
+    color: #fafafa;
 }
 
 .card {
@@ -291,11 +293,11 @@ form button {
   height: auto;
   padding-bottom: 6rem;
   float: right;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 10px;
 }
 
 #album-info {
   z-index: 1;
-  border: 5px solid black;
   margin-bottom: 6rem;
   position: absolute;
   width: 200px;
@@ -303,8 +305,31 @@ form button {
   top: 1250px;
   background-color: #fff;
   text-transform: uppercase;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 10px;
+  background-color: rgba(67, 95, 81, 0.96);
+  color: #fafafa;
 }
 
+#album-info h3 {
+  padding-top: 28px;
+  text-shadow: rgba(0, 0, 0, 0.4) 3px 3px;
+  
+}
+
+#album-info a {
+  color: #fafafa;
+  background-color: #3E7088;
+  margin-bottom: 2rem;
+  margin-top: 20px;
+  margin-left: 28px;
+  text-shadow: rgba(0, 0, 0, 0.4) 3px 3px;
+  box-shadow: rgba(0, 0, 0, 0.4) 3px 3px;
+}
+
+#album-info a:hover {
+  background-color: #1E3742;
+}
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
