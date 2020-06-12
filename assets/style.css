@@ -269,8 +269,8 @@ video {
 
 
 form {
-    top: 78%;
-    margin-bottom: 3rem;
+    top: 6rem;
+    margin-bottom: 2rem;
 }
 
 form p {
@@ -286,6 +286,24 @@ form button {
   width: 18rem;
 }
 
+#album-img {
+  width: 500px;
+  height: auto;
+  padding-bottom: 6rem;
+  float: right;
+}
+
+#album-info {
+  z-index: 1;
+  border: 5px solid black;
+  margin-bottom: 6rem;
+  position: absolute;
+  width: 200px;
+  right: 800px;
+  top: 1250px;
+  background-color: #fff;
+  text-transform: uppercase;
+}
 
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
