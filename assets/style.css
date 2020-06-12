@@ -147,15 +147,18 @@ body {
   /*max-width: 100%;*/
   position: absolute;
   top: 23%;
-  bottom: 40px;
   /*z-index: 1;*/
   color: white;
-  border: thin black solid;
 }
 
 #bio-container h1 {
   text-transform: uppercase;
   padding-bottom: 40px;
+  font-size: 4rem;
+}
+
+#bio-container p {
+  font-size: 2rem;
 }
 
 
@@ -302,6 +305,9 @@ form button {
     .card {
       right: 28px;
     }
+    #bio-container {
+      width: auto;
+     }
   }
 @media screen and (max-width: 600px) {
     
@@ -361,5 +367,17 @@ form button {
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
+    }
+
+    #bio-container {
+     width: auto;
+    }
+
+    #bio-container h1 {
+      font-size: 3.5rem;
+    }
+
+    #bio-container p {
+      font-size: 1rem;
     }
 }
