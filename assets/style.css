@@ -109,10 +109,9 @@ body {
 .btn-lg {
     border-width: medium;
     border-radius: 0;
-    /*padding: .6rem 1.3rem;*/
+    padding: .6rem 1.3rem;
     font-size: 1.1rem;
     margin-bottom: 12rem;
-
 }
 
    /*-----Footer----*/
@@ -135,28 +134,33 @@ body {
 
 /*---------Bio----*/
 
-#top-bg {
-    background-color: #446600;
-    padding-top: 100px;
+#bio-body {
+  background-image: url(https://i.imgur.com/Abohxw1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  
+
+#bio-container {
+  width: 43%;
+  /*max-width: 100%;*/
+  position: absolute;
+  top: 23%;
+  bottom: 40px;
+  /*z-index: 1;*/
+  color: white;
+  border: thin black solid;
 }
 
-#bio-bg {
-    background-image: url(https://i.imgur.com/TN64CR6.jpg);
-    position: fixed;
-    display: inline-block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    z-index: -100;
-    overflow: scroll;
-  }
+#bio-container h1 {
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
 
 
 /*-----Jumbotron---*/
-.jumbotron {
+/*.jumbotron {
     width: 61%;
     max-width: 100%;
     margin-top: 100px;
@@ -169,7 +173,7 @@ body {
 
 .jumbotron h1 {
     text-transform: uppercase;
-}
+}*/
 
 
 
@@ -235,6 +239,10 @@ section a {
   /*-------Video----*/
 video {
     padding-bottom: 6rem;
+}
+
+.embed-responsive {
+  height: 100%;
 }
 
 /*-------Contact--*/
