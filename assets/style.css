@@ -149,6 +149,7 @@ body {
   top: 23%;
   /*z-index: 1;*/
   color: white;
+  left: 12%;
 }
 
 #bio-container h1 {
@@ -307,6 +308,7 @@ form button {
     }
     #bio-container {
       width: auto;
+      left: 35px;
      }
   }
 @media screen and (max-width: 600px) {
@@ -371,6 +373,7 @@ form button {
 
     #bio-container {
      width: auto;
+     left: 20px;
     }
 
     #bio-container h1 {
