@@ -291,9 +291,8 @@ form .btn {
 #album-img {
   width: 500px;
   height: auto;
-  padding-bottom: 6rem;
   float: right;
-  box-shadow: rgba(0, 0, 0, 0.4) 10px 10px;
+  margin-bottom: 6rem;
 }
 
 #album-info {
@@ -353,6 +352,16 @@ form .btn {
       width: auto;
       left: 35px;
      }
+     #album-info {
+      height: auto;
+      position: static;
+     float: left;
+     margin-left: 10px;
+     margin-top: 100px;
+    }
+    
+    
+
   }
 @media screen and (max-width: 600px) {
     
@@ -426,4 +435,10 @@ form .btn {
     #bio-container p {
       font-size: 1rem;
     }
+    #album-info {
+      position: static;
+      height: auto;
+      margin-left: 5.3rem;
+    }
+
 }
