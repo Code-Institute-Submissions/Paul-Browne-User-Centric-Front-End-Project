@@ -73,6 +73,7 @@ html {
     transition: all 1000ms;
   }
 
+
   @keyframes img-zoom {
     from{
         transform: scale(1);
