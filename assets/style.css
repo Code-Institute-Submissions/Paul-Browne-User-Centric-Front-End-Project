@@ -112,6 +112,7 @@ body {
     padding: .6rem 1.3rem;
     font-size: 1.1rem;
     margin-bottom: 12rem;
+    background-color: rgba(67, 95, 81, 0.96);
 }
 
    /*-----Footer----*/
@@ -150,6 +151,7 @@ body {
   /*z-index: 1;*/
   color: white;
   left: 12%;
+  margin-bottom: 4rem;
 }
 
 #bio-container h1 {
