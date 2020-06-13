@@ -137,10 +137,27 @@ html {
     color: #f5f5f0;
     text-shadow: 0 0 20px #fff;
 }
+#footer-links {
+  position: fixed;
+  margin-right: 2rem;
+  margin-bottom: 1.7rem;
+} 
+
+#footer-links a {
+  margin-right: 4rem;
+  font-size: 1.7rem;
+  color: #999966;
+}
+
+#footer-links a:hover {
+  color: #f5f5f0;
+}
 
 section div {
   position: absolute;
 }
+
+
 /*---------Bio----*/
 
 #bio-body {
@@ -153,10 +170,8 @@ section div {
 
 #bio-container {
   width: 43%;
-  /*max-width: 100%;*/
   position: absolute;
-  top: 23%;
-  /*z-index: 1;*/
+  top: 12%;
   color: white;
   left: 12%;
   margin-bottom: 6rem;
@@ -171,25 +186,6 @@ section div {
 #bio-container p {
   font-size: 2rem;
 }
-
-
-/*-----Jumbotron---*/
-/*.jumbotron {
-    width: 61%;
-    max-width: 100%;
-    margin-top: 100px;
-    top: 20%;
-    background-color: rgba(43, 94, 62, 0.4);
-    color: #fafafa;
-}
-
-
-
-.jumbotron h1 {
-    text-transform: uppercase;
-}*/
-
-
 
 /*------Section Footer---*/
 section {
@@ -293,7 +289,6 @@ form .btn:hover {
 }
 
 #album-info {
-  z-index: 1;
   margin-bottom: 6rem;
   position: absolute;
   width: 200px;
@@ -361,7 +356,13 @@ form .btn:hover {
     form {
       margin-bottom: 0px;
     }
+    #footer-links {
+      display: none;
+    } 
     
+    #footer-links a {
+      display: none;
+    }
     
 
   }
@@ -444,6 +445,14 @@ form .btn:hover {
       position: static;
       height: auto;
       margin-left: 5.3rem;
+    }
+
+    #footer-links {
+      display: none;
+    } 
+    
+    #footer-links a {
+      display: none;
     }
 
 }
