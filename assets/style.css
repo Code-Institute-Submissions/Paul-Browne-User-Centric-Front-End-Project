@@ -56,7 +56,7 @@ html {
   }
   /*-------Landing Page---*/
   #landing-img {
-      background-image: url(https://i.imgur.com/aJ6LatB.png);
+      background-image: url(../assets/img/guitar3.png);
       filter: sepia(30%);
     position: fixed;
     display: inline-block;
@@ -161,7 +161,7 @@ section div {
 /*---------Bio----*/
 
 #bio-body {
-  background-image: url(https://i.imgur.com/NEy36zL.jpg);
+  background-image: url(../assets/img/guitarbioblue.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -205,7 +205,7 @@ section a {
 
  /*-----Media Gallery---*/
  #media-body {
-     background-image: url(https://i.imgur.com/h6BgKES.jpg);
+     background-image: url("../assets/img/mooncloud.jpg");
      background-repeat: no-repeat;
      background-attachment: fixed;
  }
@@ -229,20 +229,22 @@ section a {
   margin-top: 5rem;
   margin-left: 30px;
 }
+
+.img-thumbnail {
+  background: transparent;
+  border: none;
+}
+
   /*-------Video----*/
 video {
     padding-bottom: 6rem;
-}
-
-.embed-responsive {
-  
 }
 
 /*-------Contact--*/
 
 #contact-body {
   font-family: 'Cabin', sans-serif;
-  background-image: url(https://i.imgur.com/QYI8CPd.png);
+  background-image: url(../assets/img/contacttree.png);
   /*background-position: center center;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
