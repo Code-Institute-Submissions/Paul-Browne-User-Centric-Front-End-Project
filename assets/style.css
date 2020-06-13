@@ -113,10 +113,12 @@ body {
     font-size: 1.1rem;
     margin-bottom: 12rem;
     background-color: rgba(67, 95, 81, 0.96);
+    color: #fafafa;
 }
 
 .btn-lg:hover {
-    
+  background-color: #999966;
+  color: #fafafa;
 }
    /*-----Footer----*/
    
@@ -139,7 +141,7 @@ body {
 /*---------Bio----*/
 
 #bio-body {
-  background-image: url(https://i.imgur.com/Abohxw1.png);
+  background-image: url(https://i.imgur.com/NEy36zL.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -208,24 +210,7 @@ section a {
      background-repeat: no-repeat;
      background-attachment: fixed;
  }
- /*.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }*/
-  
-  /* Create four equal columns that sits next to each other */
-  /*.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }*/
+ 
  /*-----Modal gallery from bootsnipp.com/snippets/P2gor---*/
   .btn:focus, .btn:active, button:focus, button:active {
     outline: none !important;
@@ -258,7 +243,7 @@ video {
 
 #contact-body {
   font-family: 'Cabin', sans-serif;
-  background-image: url(https://i.imgur.com/h6BgKES.jpg);
+  background-image: url(https://i.imgur.com/QYI8CPd.png);
   /*background-position: center center;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -276,6 +261,7 @@ video {
 form {
     top: 6rem;
     margin-bottom: 2rem;
+    color: #fafafa;
 }
 
 form p {
@@ -297,7 +283,7 @@ form .btn {
   width: 500px;
   height: auto;
   float: right;
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
 }
 
 #album-info {
@@ -334,6 +320,8 @@ form .btn {
 #album-info a:hover {
   background-color: #1E3742;
 }
+
+/*---------Media Queries----*/
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
@@ -363,6 +351,9 @@ form .btn {
      float: left;
      margin-left: 10px;
      margin-top: 100px;
+    }
+    form {
+      margin-bottom: 0px;
     }
     
     
@@ -408,11 +399,10 @@ form .btn {
 
     form {
         width: auto;
-        color: #ff9900;
+        color: #fafafa;
     }
 
     .card {
-      margin-bottom: 4rem;
       left: 25px;
       width: 18rem;
     }
@@ -439,6 +429,10 @@ form .btn {
 
     #bio-container p {
       font-size: 1rem;
+    }
+    #album-img {
+      margin-top: 0px;
+      margin-bottom: 0px;
     }
     #album-info {
       position: static;
