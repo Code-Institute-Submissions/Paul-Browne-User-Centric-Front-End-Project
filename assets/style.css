@@ -138,6 +138,9 @@ body {
     text-shadow: 0 0 20px #fff;
 }
 
+section div {
+  position: absolute;
+}
 /*---------Bio----*/
 
 #bio-body {
@@ -270,10 +273,13 @@ form p {
 
 form .btn {
     width: 30%;
-    background-color: rgba(67, 95, 81, 0.96);
+    background-color: rgba(26, 4, 48, 0.8);
     color: #fafafa;
+    border: solid rgba(103, 80, 124, 0.8) 2px;
 }
-
+form .btn:hover {
+  background-color: rgba(103, 80, 124, 0.8);
+}
 .card {
   top: 120px;
   width: 18rem;
@@ -297,7 +303,7 @@ form .btn {
   text-transform: uppercase;
   height: auto;
   box-shadow: rgba(0, 0, 0, 0.4) 10px 10px;
-  background-color: rgba(67, 95, 81, 0.96);
+  background-color: rgba(103, 80, 124, 0.8);
   color: #fafafa;
 }
 
