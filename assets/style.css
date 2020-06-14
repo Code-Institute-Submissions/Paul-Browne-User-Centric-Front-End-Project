@@ -10,10 +10,10 @@ html {
     height: 0%;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     left: 0;
-    background-color: rgb(67, 95, 81),;
+    background-color: rgb(67, 95, 81);
     background-color: rgba(67, 95, 81, 0.96);
     overflow-y: hidden;
     transition: 0.5s;
@@ -241,6 +241,23 @@ video {
     padding-bottom: 6rem;
 }
 
+/*---Carousel*/
+
+/*#carousel-container {
+  padding-top: 4rem;
+}*/
+
+.carousel .carousel-inner {
+  height:800px;
+  padding-top: 4rem;
+  }
+
+
+.carousel-inner .carousel-item img {
+  min-height:200px;
+  object-fit:cover;
+  }
+
 /*-------Contact--*/
 
 #contact-body {
@@ -336,6 +353,7 @@ form .btn:hover {
     }
   }
 
+  /*---Tablet*/
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
@@ -367,8 +385,13 @@ form .btn:hover {
       display: none;
     }
     
+    .carousel .carousel-inner {
+      height:auto
+      }
 
   }
+
+/*-----Mobile*/
 @media screen and (max-width: 600px) {
     
     .caption h1 {
@@ -395,7 +418,7 @@ form .btn:hover {
     
     section a {
         font-size: 2rem;
-        padding: none;
+        padding: 0;
     }
 
     .column {
@@ -430,7 +453,7 @@ form .btn:hover {
 
     #bio-container {
      width: auto;
-     left: 20px;
+     left: 10px;
     }
 
     #bio-container h1 {
@@ -457,5 +480,9 @@ form .btn:hover {
     #footer-links a {
       display: none;
     }
+
+    .carousel .carousel-inner {
+      height:auto
+      }
 
 }
