@@ -499,7 +499,7 @@ form .btn:hover {
     }
 
     .carousel .carousel-inner {
-      height: auto;
+      height: 260px;
       padding-top: 4rem;
       width: 100%;
       }
@@ -509,13 +509,21 @@ form .btn:hover {
       min-height:200px;
       width: 100%;
       }
+
       .container {
       position: relative;
        top: 3rem;
       }
+        .carousel-control-prev {
+          top: 8rem;
+        }
 
+        .carousel-control-next {
+          top: 8rem;
+        }
+      
       .embed-responsive video {
         position: relative;
-        
+        padding-top: 0px;
       }
 }
