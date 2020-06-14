@@ -211,7 +211,7 @@ section a {
      background-attachment: fixed;
  }
  
- /*-----Modal gallery from bootsnipp.com/snippets/P2gor---*/
+ /*-----Modal gallery from bootsnipp.com/snippets/P2gor
   .btn:focus, .btn:active, button:focus, button:active {
     outline: none !important;
     box-shadow: none !important;
@@ -234,14 +234,19 @@ section a {
 .img-thumbnail {
   background: transparent;
   border: none;
-}
+}--*/
 
   /*-------Video----*/
 video {
     padding-bottom: 6rem;
     padding-top: 2rem;
+    height: auto;
+    
 }
 
+.embed-responsive {
+ 
+}
 /*---Carousel*/
 
 /*#carousel-container {
@@ -256,15 +261,18 @@ video {
 }
 
 .carousel .carousel-inner {
-  height:800px;
+  height: 850px;
   padding-top: 4rem;
+  width: 100%;
   }
 
 
 .carousel-inner .carousel-item img {
   min-height:200px;
   object-fit:cover;
+  width: 100%;
   }
+  
 
 /*-------Contact--*/
 
@@ -492,5 +500,5 @@ form .btn:hover {
     .carousel .carousel-inner {
       height:auto
       }
-
+      
 }
