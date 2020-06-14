@@ -289,7 +289,8 @@ video {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  margin-top: 3rem;
+  margin-top: 1rem;
+  
 }
 
 
@@ -479,10 +480,10 @@ form .btn:hover {
     #bio-container p {
       font-size: 1rem;
     }
-    #album-img {
+    /*#album-img {
       margin-top: 0px;
       margin-bottom: 0px;
-    }
+    }*/
     #album-info {
       position: static;
       height: auto;
