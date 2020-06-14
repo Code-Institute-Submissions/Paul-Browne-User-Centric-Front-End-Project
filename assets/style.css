@@ -240,15 +240,13 @@ section a {
 
   /*-------Video----*/
 video {
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
     padding-top: 2rem;
     height: auto;
     
 }
 
-.embed-responsive {
- 
-}
+
 /*---Carousel*/
 
 /*#carousel-container {
@@ -256,14 +254,14 @@ video {
 }*/
 
 #media2-body {
-  background-image: url(../assets/img/contacttree.png);
+  background-image: url(../assets/img/mediabgtrees2.png);
   /*background-position: center center;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .carousel .carousel-inner {
-  height: 850px;
+  height: 700px;
   padding-top: 4rem;
   width: 100%;
   }
