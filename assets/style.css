@@ -239,6 +239,7 @@ section a {
   /*-------Video----*/
 video {
     padding-bottom: 6rem;
+    padding-top: 2rem;
 }
 
 /*---Carousel*/
@@ -246,6 +247,13 @@ video {
 /*#carousel-container {
   padding-top: 4rem;
 }*/
+
+#media2-body {
+  background-image: url(../assets/img/contacttree.png);
+  /*background-position: center center;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 .carousel .carousel-inner {
   height:800px;
