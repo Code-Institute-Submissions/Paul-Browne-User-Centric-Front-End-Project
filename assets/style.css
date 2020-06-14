@@ -10,7 +10,7 @@ html {
     height: 0%;
     width: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: 10;
     top: 0;
     left: 0;
     background-color: rgb(67, 95, 81);
@@ -26,6 +26,7 @@ html {
     width: 100%;
     text-align: center;
     margin-top: 30px;
+    z-index: 10;
   }
   
   .overlay a {
@@ -53,6 +54,7 @@ html {
       color: aliceblue;
       float: right;
       margin-right: 20px;
+      z-index: 2;
   }
   /*-------Landing Page---*/
   #landing-img {
@@ -498,7 +500,23 @@ form .btn:hover {
     }
 
     .carousel .carousel-inner {
-      height:auto
+      height: auto;
+      padding-top: 4rem;
+      width: 100%;
       }
-      
+    
+    
+    .carousel-inner .carousel-item img {
+      min-height:200px;
+      width: 100%;
+      }
+      .container {
+      position: relative;
+       top: 3rem;
+      }
+
+      .embed-responsive video {
+        position: relative;
+        
+      }
 }
