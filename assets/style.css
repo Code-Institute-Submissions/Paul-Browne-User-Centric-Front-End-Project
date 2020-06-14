@@ -480,14 +480,20 @@ form .btn:hover {
     #bio-container p {
       font-size: 1rem;
     }
-    /*#album-img {
+    #album-img {
       margin-top: 0px;
       margin-bottom: 0px;
-    }*/
+      z-index: -1;
+      position: relative;
+    }
     #album-info {
       position: static;
       height: auto;
       margin-left: 5.3rem;
+      padding-top: 0px;
+      margin-top: 0px;
+      margin-bottom: 6rem;
+     
     }
 
     #footer-links {
