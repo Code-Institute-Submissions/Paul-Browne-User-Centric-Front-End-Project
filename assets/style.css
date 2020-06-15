@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
 
 html {
     font-family: 'Cabin', sans-serif;
+    height: 100%;
+    position: relative;
   }
   
-
+  .main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+   }
   /*--------Nav--*/
   .overlay {
     height: 0%;
@@ -127,7 +142,7 @@ html {
    /*-----Footer----*/
    
 
-.footer a {
+/*.footer a {
     font-size: 4rem;
     padding: 4rem;
     color: #999966;
@@ -157,9 +172,9 @@ html {
   color: #f5f5f0;
 }
 
-section div {
+/*section div {
   position: absolute;
-}
+}*/
 
 
 /*---------Bio----*/
@@ -193,20 +208,30 @@ section div {
 }
 
 /*------Section Footer---*/
-section {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 5rem;
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+ footer a {
+  color: #fafafa;
 }
 
-section a {
-    font-size: 3rem;
-    padding: 20px;
-    color: #999966;
+footer svg.svg-inline--fa {
+  font-size: 2.5rem;
+  margin: 1.2rem .5rem 0 0;
+  color: #fafafa;
 }
- section a:hover {
-     color: #f5f5f0;
- }
 
+footer svg.svg-inline--fa:hover {
+  color: #b6a2d1!important;
+}
+
+.footer-copyright {
+  color: #fafafa;
+}
 
  /*-----Media Gallery---*/
  #media-body {
@@ -216,34 +241,10 @@ section a {
      font-family: 'Cabin', sans-serif;
  }
  
- /*-----Modal gallery from bootsnipp.com/snippets/P2gor
-  .btn:focus, .btn:active, button:focus, button:active {
-    outline: none !important;
-    box-shadow: none !important;
-  }
-  
-  #image-gallery .modal-footer{
-    display: block;
-  }
-  
-  .thumb{
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-#media-row {
-  margin-top: 5rem;
-  margin-left: 30px;
-}
-
-.img-thumbnail {
-  background: transparent;
-  border: none;
-}--*/
 
   /*-------Video----*/
 video {
-    padding-bottom: 5rem;
+    padding-bottom: none;
     padding-top: 2rem;
     height: auto;
     
@@ -251,10 +252,6 @@ video {
 
 
 /*---Carousel*/
-
-/*#carousel-container {
-  padding-top: 4rem;
-}*/
 
 #media2-body {
   background-image: url(../assets/img/mediabgtrees2.png);
@@ -276,7 +273,22 @@ video {
   width: 100%;
   }
   
-
+  .iframe-container {
+    overflow: hidden;
+    margin-top: 2rem;
+    padding-top: 56.25%;
+    position: relative;
+    
+  }
+   
+  .iframe-container iframe {
+     border: 0;
+     height: 90%;
+     left: 25%;
+     position: absolute;
+     top: 0;
+     width: 50%;
+  }
 /*-------Contact--*/
 
 #contact-body {
@@ -438,8 +450,8 @@ form .btn:hover {
         font-size: 1rem;
         margin-bottom: 4rem;
     }
-    .footer a {
-        font-size: 3.5rem;
+    footer a {
+        font-size: .5rem;
     }
 
     section {
@@ -510,14 +522,6 @@ form .btn:hover {
      
     }
 
-    #footer-links {
-      display: none;
-    } 
-    
-    #footer-links a {
-      display: none;
-    }
-
     .carousel .carousel-inner {
       height: 260px;
       padding-top: 4rem;
@@ -542,8 +546,32 @@ form .btn:hover {
           top: 8rem;
         }
       
-      .embed-responsive video {
-        position: relative;
-        padding-top: 0px;
-      }
+        .iframe-container {
+          overflow: hidden;
+          
+          padding-top: 56.25%;
+          position: relative;
+          margin-bottom: 5rem;
+        }
+         
+        .iframe-container iframe {
+           border: 0;
+           height: 100%;
+           left: 0;
+           position: absolute;
+           top: 0;
+           width: 100%;
+        }
+
+        footer svg.svg-inline--fa {
+          font-size: 2rem;
+          margin-top: 0px;
+          color: #fafafa;
+          padding-top: 0px;
+          margin-bottom: 2rem;
+        }
+
+        .footer-copyright {
+
+        }
 }
