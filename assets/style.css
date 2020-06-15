@@ -416,7 +416,9 @@ form .btn:hover {
     .carousel .carousel-inner {
       height: 450px;
       }
-
+      video {
+        margin-top: 5.8rem;
+      }
   }
 
 /*-----Mobile*/
