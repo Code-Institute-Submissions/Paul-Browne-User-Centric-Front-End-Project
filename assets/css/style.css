@@ -73,7 +73,8 @@ html {
   }
   /*-------Landing Page---*/
   #landing-img {
-    background-image: url(../../assets/img/guitar3.png);
+    /*background-image: url(../../assets/img/guitar3.png);*/
+    background-image: url(https://github.com/pbtrad/Project-idea-5/blob/master/assets/img/guitar3.png?raw=true);
     filter: sepia(30%);
     position: fixed;
     display: inline-block;
@@ -180,7 +181,7 @@ html {
 /*---------Bio----*/
 
 #bio-body {
-  background-image: url(/assets/img/guitarbioblue.png);
+  background-image: url(https://github.com/pbtrad/Project-idea-5/blob/master/assets/img/guitarbioblue.png?raw=true);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -254,7 +255,7 @@ footer svg.svg-inline--fa:hover {
 /*---Carousel*/
 
 #media2-body {
-  background-image: url(/assets/img/mediabgtrees2.png);
+  background-image: url(https://github.com/pbtrad/Project-idea-5/blob/master/assets/img/mediabgtrees2.png?raw=true);
   /*background-position: center center;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -293,7 +294,7 @@ footer svg.svg-inline--fa:hover {
 
 #contact-body {
   font-family: 'Cabin', sans-serif;
-  background-image: url(/assets/img/contacttree.png);
+  background-image: url(https://github.com/pbtrad/Project-idea-5/blob/master/assets/img/contacttree.png?raw=true);
   /*background-position: center center;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
