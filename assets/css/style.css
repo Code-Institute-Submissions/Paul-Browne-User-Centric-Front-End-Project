@@ -302,21 +302,30 @@ footer svg.svg-inline--fa:hover {
   
 }
 
-.img-fluid {
+/*.img-fluid {
   max-width: 100%;
   height: auto;
   margin-top: 2rem;
-  margin-left: 80px;
+  /*margin-left: 80px;
+  
+}*/
+#album-cover-contact .img-fluid{
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-
-#contact-form {
-  width: 40%;
-}
+/*#contact-form {
+  max-width: 100%;
+  height: auto;
+}*/
 
 form {
     top: 6rem;
     margin-bottom: 2rem;
     color: #fafafa;
+    max-width: 100%;
+    height: auto;
 }
 
 form p {
@@ -324,7 +333,7 @@ form p {
 }
 
 form .btn {
-    width: 15%;
+    max-width: 100%;
     background-color: rgba(26, 4, 48, 0.8);
     color: #fafafa;
     border: solid rgba(103, 80, 124, 0.8) 2px;
@@ -423,9 +432,9 @@ form .btn:hover {
       margin-bottom: 0px;
     }
 
-    form .btn {
+    /*form .btn {
       width: 60%;
-    }
+    }*/
     #footer-links {
       display: none;
     } 
