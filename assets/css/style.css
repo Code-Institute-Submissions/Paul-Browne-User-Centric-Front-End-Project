@@ -309,6 +309,9 @@ footer svg.svg-inline--fa:hover {
   margin-left: 80px;
 }
 
+#contact-form {
+  width: 40%;
+}
 
 form {
     top: 6rem;
@@ -321,17 +324,13 @@ form p {
 }
 
 form .btn {
-    width: 30%;
+    width: 15%;
     background-color: rgba(26, 4, 48, 0.8);
     color: #fafafa;
     border: solid rgba(103, 80, 124, 0.8) 2px;
 }
 form .btn:hover {
   background-color: rgba(103, 80, 124, 0.8);
-}
-.card {
-  top: 120px;
-  width: 18rem;
 }
 
 #album-img {
@@ -415,8 +414,17 @@ form .btn:hover {
      z-index: 2;
      
     }
+
+    #contact-form {
+      width: 60%;
+    }
+
     form {
       margin-bottom: 0px;
+    }
+
+    form .btn {
+      width: 60%;
     }
     #footer-links {
       display: none;
@@ -476,9 +484,14 @@ form .btn:hover {
         padding-bottom: 4rem;
     }
 
+    #contact-form {
+      width: 100%;
+    }
+
     form {
         width: auto;
         color: #fafafa;
+        margin-bottom: 30px;
     }
 
     .card {
