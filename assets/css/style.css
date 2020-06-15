@@ -73,7 +73,7 @@ html {
   }
   /*-------Landing Page---*/
   #landing-img {
-      background-image: url(/assets/img/guitar3.png);
+      background-image: url(../../assets/img/guitar3.png);
       filter: sepia(30%);
     position: fixed;
     display: inline-block;
