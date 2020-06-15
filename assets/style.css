@@ -333,7 +333,7 @@ form .btn:hover {
   position: absolute;
   width: 200px;
   right: 800px;
-  top: 1500px;
+  top: 1250px;
   background-color: #fff;
   text-transform: uppercase;
   height: auto;
@@ -396,10 +396,11 @@ form .btn:hover {
      #album-info {
       height: auto;
       position: static;
-     /*float: left;*/
-     margin-left: 65px;
+     float: left;
+     margin-left: 25px;
      margin-top: 100px;
      z-index: 2;
+     
     }
     form {
       margin-bottom: 0px;
