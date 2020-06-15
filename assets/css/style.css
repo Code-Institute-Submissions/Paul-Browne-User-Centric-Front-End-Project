@@ -73,7 +73,7 @@ html {
   }
   /*-------Landing Page---*/
   #landing-img {
-      background-image: url(../assets/img/guitar3.png);
+      background-image: url(/../assets/img/guitar3.png);
       filter: sepia(30%);
     position: fixed;
     display: inline-block;
@@ -180,7 +180,7 @@ html {
 /*---------Bio----*/
 
 #bio-body {
-  background-image: url(../assets/img/guitarbioblue.png);
+  background-image: url(/../assets/img/guitarbioblue.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -243,18 +243,18 @@ footer svg.svg-inline--fa:hover {
  
 
   /*-------Video----*/
-video {
+/*video {
     padding-bottom: none;
     padding-top: 2rem;
     height: auto;
     
-}
+}*/
 
 
 /*---Carousel*/
 
 #media2-body {
-  background-image: url(../assets/img/mediabgtrees2.png);
+  background-image: url(/../assets/img/mediabgtrees2.png);
   /*background-position: center center;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -283,17 +283,17 @@ video {
    
   .iframe-container iframe {
      border: 0;
-     height: 90%;
+     height: 85%;
      left: 25%;
      position: absolute;
      top: 0;
-     width: 50%;
+     width: 48%;
   }
 /*-------Contact--*/
 
 #contact-body {
   font-family: 'Cabin', sans-serif;
-  background-image: url(../assets/img/contacttree.png);
+  background-image: url(/../assets/img/contacttree.png);
   /*background-position: center center;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
