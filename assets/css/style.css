@@ -305,8 +305,8 @@ footer svg.svg-inline--fa:hover {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  margin-top: 1rem;
-  
+  margin-top: 2rem;
+  margin-left: 80px;
 }
 
 
@@ -431,6 +431,9 @@ form .btn:hover {
       }
       video {
         margin-top: 5.8rem;
+      }
+      .img-fluid {
+        margin-left: auto;
       }
   }
 
