@@ -414,7 +414,7 @@ form .btn:hover {
     }
     
     .carousel .carousel-inner {
-      height:auto
+      height: 450px;
       }
 
   }
