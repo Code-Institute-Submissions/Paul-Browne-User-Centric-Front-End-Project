@@ -196,6 +196,10 @@ html {
   font-size: 1.2rem;
 }
 
+#bio-top p {
+  text-shadow: .1rem .1rem .8rem black;
+}
+
 .bio-img-wrap-top img {
   max-width: 100%;
   position: relative;
@@ -210,15 +214,17 @@ html {
   font-size: 1.2rem;
 }
 #bio-bottom p {
-  margin-left: 15%;
+  /*margin-left: 15%;*/
+  text-shadow: .1rem .1rem .8rem black;
 }
 
 #bio-top h1 {
   text-transform: uppercase;
-  position: relative;
-  bottom: 150px;
-  right: 0rem;
-  font-size: 5rem;
+          position: relative;
+          font-size: 5.8rem;
+          bottom: 9rem;
+          text-shadow: .1rem .1rem .8rem black;
+          
 }
 
 .bio-img-wrap-bottom img {
@@ -228,7 +234,7 @@ html {
 /*------Section Footer---*/
 
 footer {
-  background-color: rgba(0, 0, 0, 0.7);
+ background-color: rgba(0, 0, 0, 0.7);
  position: absolute;
  bottom: 0;
  width: 100%;
@@ -469,6 +475,34 @@ form .btn:hover {
       .img-fluid {
         margin-left: auto;
       }
+      #bio-bottom {
+        margin-bottom: 88px;
+      }
+
+      .bio-img-wrap-bottom img {
+        margin-bottom: 15px;
+      }
+
+      #bio-top h1 {
+        text-transform: uppercase;
+        position: relative;
+        /*bottom: 150px;
+        right: 1.5rem;
+        font-size: 5rem;*/
+        bottom: 2.5rem;
+        right: 0px;
+        font-size: 3.6rem;
+        text-align: center;
+      }
+
+      #bio-top p {
+        font-size: 1.1rem;
+      }
+
+      #bio-bottom p {
+        font-size: 1.1rem;
+        padding-left: 30px;
+      }
   }
 
 /*-----Mobile*/
@@ -623,7 +657,7 @@ form .btn:hover {
           font-size: 5rem;*/
           bottom: 2.5rem;
           right: 0px;
-          font-size: 2rem;
+          font-size: 2.6rem;
           text-align: center;
         }
 
@@ -634,5 +668,9 @@ form .btn:hover {
         #bio-bottom p {
           font-size: 1.1rem;
           padding-right: 30px;
+        }
+
+        span small {
+          display: none;
         }
 }
