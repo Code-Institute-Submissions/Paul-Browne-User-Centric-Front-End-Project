@@ -564,17 +564,8 @@ form .btn:hover {
     form {
         width: auto;
         color: #fafafa;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
-
-    /*.card {
-      left: 25px;
-      width: 18rem;
-    }*/
-
-    /*.col-md-5 {
-      bottom: 160px;
-    }*/
 
     #contact-body {
       background-position: center center;
@@ -645,9 +636,7 @@ form .btn:hover {
            width: 100%;
         }*/
 
-        footer {
-         
-        }
+        
 
         footer svg.svg-inline--fa {
           font-size: 2rem;
