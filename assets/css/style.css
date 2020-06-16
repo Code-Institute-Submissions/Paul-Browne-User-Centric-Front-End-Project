@@ -276,6 +276,7 @@ footer svg.svg-inline--fa:hover {
 
 .text-wrap {
   color: #fafafa;
+  text-shadow: .1rem .1rem .8rem black;
 }
 
 .text-wrap .text-center {
@@ -503,6 +504,24 @@ form .btn:hover {
       #bio-bottom p {
         font-size: 1.1rem;
         padding-left: 30px;
+      }
+
+      iframe {
+        height: 90%;
+        width: 100%;
+      }
+
+      .text-wrap {
+        color: #fafafa;
+        margin-top: 0;
+      }
+      
+      .text-wrap .text-center {
+        font-size: 2rem;
+      }
+      
+      .text-wrap p {
+        font-size: 1.1rem;
       }
   }
 
