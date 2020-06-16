@@ -188,8 +188,11 @@ html {
   font-family: 'Cabin', sans-serif;
 }
   
-
-#bio-container {
+#bio-section-top {
+  display: inline-block;
+  margin-top: 10%;
+}
+/*#bio-container {
   width: 43%;
   position: absolute;
   top: 12%;
@@ -206,7 +209,7 @@ html {
 
 #bio-container p {
   font-size: 2rem;
-}
+}*/
 
 /*------Section Footer---*/
 
