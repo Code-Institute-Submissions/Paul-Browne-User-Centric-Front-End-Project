@@ -184,33 +184,33 @@ html {
   background-image: url(https://github.com/pbtrad/Project-idea-5/blob/master/assets/img/guitarbioblue.png?raw=true);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  /*background-size: cover;*/
   font-family: 'Cabin', sans-serif;
 }
   
-#bio-section-top {
+#bio-top {
   display: inline-block;
   margin-top: 10%;
-}
-/*#bio-container {
-  width: 43%;
-  position: absolute;
-  top: 12%;
-  color: white;
-  left: 12%;
-  margin-bottom: 6rem;
+  color: #fafafa;
+  width: 100%;
 }
 
-#bio-container h1 {
-  text-transform: uppercase;
-  padding-bottom: 40px;
-  font-size: 4rem;
+.bio-img-wrap-top img {
+  max-width: 100%;
+  position: relative;
 }
 
-#bio-container p {
-  font-size: 2rem;
-}*/
+#bio-bottom {
+  display: inline-block;
+  margin-top: 10%;
+  color: #fafafa;
+  width: 100%;
+}
 
+.bio-img-wrap-bottom img {
+  max-width: 100%;
+  position: relative;
+}
 /*------Section Footer---*/
 
 footer {
@@ -478,14 +478,14 @@ form .btn:hover {
         font-size: .5rem;
     }
 
-    section {
+    /*section {
         height: 3rem;
     }
     
     section a {
         font-size: 2rem;
         padding: 0;
-    }
+    }*/
 
     .column {
         flex: 100%;
