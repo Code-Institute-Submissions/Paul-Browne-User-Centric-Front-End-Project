@@ -193,6 +193,7 @@ html {
   margin-top: 10%;
   color: #fafafa;
   width: 100%;
+  font-size: 1.2rem;
 }
 
 .bio-img-wrap-top img {
@@ -206,6 +207,18 @@ html {
   color: #fafafa;
   width: 100%;
   margin-bottom: 10%;
+  font-size: 1.2rem;
+}
+#bio-bottom p {
+  margin-left: 15%;
+}
+
+#bio-top h1 {
+  text-transform: uppercase;
+  position: relative;
+  bottom: 150px;
+  right: 0rem;
+  font-size: 5rem;
 }
 
 .bio-img-wrap-bottom img {
@@ -475,18 +488,11 @@ form .btn:hover {
         font-size: 1rem;
         margin-bottom: 4rem;
     }
-    footer a {
-        font-size: .5rem;
-    }
-
-    /*section {
-        height: 3rem;
-    }
-    
-    section a {
-        font-size: 2rem;
-        padding: 0;
+    /*footer a {
+        font-size: 1rem;
     }*/
+
+    
 
     .column {
         flex: 100%;
@@ -507,14 +513,14 @@ form .btn:hover {
         margin-bottom: 30px;
     }
 
-    .card {
+    /*.card {
       left: 25px;
       width: 18rem;
-    }
+    }*/
 
-    .col-md-5 {
+    /*.col-md-5 {
       bottom: 160px;
-    }
+    }*/
 
     #contact-body {
       background-position: center center;
@@ -523,17 +529,9 @@ form .btn:hover {
       background-size: cover;
     }
 
-    #bio-container {
-     width: auto;
-     left: 10px;
-    }
-
-    #bio-container h1 {
-      font-size: 3.5rem;
-    }
-
-    #bio-container p {
-      font-size: 1rem;
+    
+    #bio-bottom {
+        
     }
     #album-img {
       margin-top: 0px;
@@ -593,11 +591,48 @@ form .btn:hover {
            width: 100%;
         }
 
+        footer {
+         
+        }
+
         footer svg.svg-inline--fa {
           font-size: 2rem;
           margin-top: 0px;
           color: #fafafa;
           padding-top: 0px;
-          margin-bottom: 2rem;
+          margin-bottom: 3rem;
+        }
+
+        .footer-copyright a {
+          font-size: .3rem;
+        }
+
+        #bio-bottom {
+          margin-bottom: 88px;
+        }
+
+        .bio-img-wrap-bottom img {
+          margin-bottom: 15px;
+        }
+
+        #bio-top h1 {
+          text-transform: uppercase;
+          position: relative;
+          /*bottom: 150px;
+          right: 1.5rem;
+          font-size: 5rem;*/
+          bottom: 2.5rem;
+          right: 0px;
+          font-size: 2rem;
+          text-align: center;
+        }
+
+        #bio-top p {
+          font-size: 1.1rem;
+        }
+
+        #bio-bottom p {
+          font-size: 1.1rem;
+          padding-right: 30px;
         }
 }
