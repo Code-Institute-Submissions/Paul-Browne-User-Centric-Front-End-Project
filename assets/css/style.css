@@ -506,23 +506,47 @@ form .btn:hover {
         padding-left: 30px;
       }
 
-      iframe {
+      /*iframe {
         height: 90%;
+        width: 100%;
+      }*/
+
+      iframe {
+        height: 100vh;
         width: 100%;
       }
 
-      .text-wrap {
-        color: #fafafa;
-        margin-top: 0;
+      #video-column {
+        overflow: hidden;
+        height: 100%;
       }
-      
-      .text-wrap .text-center {
-        font-size: 2rem;
+
+      #video-column iframe {
+        border: 0;
+         height: 65%;
+         left: 0;
+         top: 0;
+         width: 100%;
       }
-      
-      .text-wrap p {
-        font-size: 1.1rem;
+
+      #video-column-two {
+        overflow: hidden;
+        height: 100%;
       }
+
+      #video-column-two iframe {
+        border: 0;
+         height: 65%;
+         left: 0;
+         top: 0;
+         width: 100%;
+      }
+
+      #media-container {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+      }
+
   }
 
 /*-----Mobile*/
