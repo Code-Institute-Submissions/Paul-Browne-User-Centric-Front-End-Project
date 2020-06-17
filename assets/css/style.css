@@ -588,7 +588,11 @@ form .btn:hover {
       }
 
       video {
-        padding-bottom: 4rem;
+        height: 100vh;
+        padding: 10px;
+        margin: 0;
+        border: 0;
+        object-fit: fill;
     }
 
     #contact-form {
