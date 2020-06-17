@@ -681,26 +681,17 @@ form .btn:hover {
 
         #media-container {
           height: 50vh;
-          margin-bottom: 32rem;
+          /*margin-bottom: 25rem;*/
+          margin-bottom: 100%;
           margin-top: 5%;
+          padding-bottom: 15%;
         }
        
         #media-row {
           height: 100%;
         }
        
-       .text-wrap {
-         color: #fafafa;
-         margin-top: 1rem;
-       }
        
-       .text-wrap .text-center {
-         font-size: 2rem;
-       }
-       
-       .text-wrap p {
-         font-size: 1rem;
-       }
        
         iframe {
           height: 100vh;
@@ -709,14 +700,27 @@ form .btn:hover {
 
         #video-column {
           overflow: hidden;
-          
+          height: 100%;
         }
 
         #video-column iframe {
           border: 0;
            height: 100%;
            left: 0;
-           /*position: absolute;*/
+           top: 0;
+           width: 100%;
+        }
+
+        #video-column-two {
+          overflow: hidden;
+          margin-top: 5%;
+          height: 100%;
+        }
+
+        #video-column-two iframe {
+          border: 0;
+           height: 100%;
+           left: 0;
            top: 0;
            width: 100%;
         }
