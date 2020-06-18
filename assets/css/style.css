@@ -230,12 +230,12 @@ footer svg.svg-inline--fa:hover {
 
 /*-----Media Gallery---*/
 
-#media-body {
+/*#media-body {
   background-image: url("../assets/img/mooncloud.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Cabin', sans-serif;
-}
+}*/
 
 /*---Carousel*/
 
@@ -244,7 +244,8 @@ footer svg.svg-inline--fa:hover {
   /*background-position: center center;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: antiquewhite;
+  background-color: #fafafa;
+  font-family: 'Cabin', sans-serif;
 }
 
 .carousel .carousel-inner {
