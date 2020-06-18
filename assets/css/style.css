@@ -589,6 +589,11 @@ form .btn:hover {
     font-size: 1.1rem;
     padding-right: 30px;
   }
+
+  #bio-bottom .btn {
+    margin-bottom: 20px;
+  }
+
   span small {
     display: none;
   }
