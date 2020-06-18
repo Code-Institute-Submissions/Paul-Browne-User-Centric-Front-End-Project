@@ -76,6 +76,15 @@ The goal of the website is to generate interest in the musician, inform those in
 
 Testing problems include footer slightly too large on max-width: 600px devices.  Some spacing issues with max-width 600px devices. Button placement on bio page needs positioning.
 
+**Changes made on recommendation of Mentor**
+
+1. Removed background images for visual improvement.
+
+2. Changed footer to more responsive design.
+
+3. Fixed nav icon on scroll.
+
+4. UX advice on photos and layout.
 
 ## Deployment
 
