@@ -29,6 +29,10 @@ The goal of the website is to generate interest in the musician, inform those in
 
 * **Footer** - Each page of the website features a footer with links to social media, youtube, and Spotify.
 
+**Features left to implement**
+
+* Table of tour dates, links to collaborative musicians websites/social media.
+
 ## Technologies Used
 
 **1**. **HTML:** HTML was used to build this website.
@@ -62,9 +66,16 @@ The goal of the website is to generate interest in the musician, inform those in
 
 6. On contact page, if submitting the form with any empty fields a message "Please fill out this field".  When Submit button is clicked, your PC will open it's default email program.
 
+**Issues/Bugs**
+
+1. The Navigation system took some css work around.
+
+2. The Footer had positioning issues, and responsiveness issues, so changed it to pure bootstrap footer.
+
 **Open Issues**
 
-Testing problems include footer slightly too large on max-width: 600px devices.  Some spacing issues with max-width 600px devices.
+Testing problems include footer slightly too large on max-width: 600px devices.  Some spacing issues with max-width 600px devices. Button placement on bio page needs positioning.
+
 
 ## Deployment
 
