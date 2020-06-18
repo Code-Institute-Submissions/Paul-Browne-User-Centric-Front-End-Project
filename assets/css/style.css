@@ -169,7 +169,7 @@ span {
 
 .bio-img-wrap-top img {
   max-width: 100%;
-  height: 50vh;
+  height: auto;
   margin-top: 25%;
 }
 
@@ -196,10 +196,16 @@ span {
 }
 
 .bio-img-wrap-bottom img {
-  width: 100%;
-  height: 50vh;
+  width: 80%;
+  height: 80%;
   /*position: relative;*/
 }
+
+#album-bio {
+  width: 40vh;
+  height: 40vh;
+}
+  
 
 /*------Section Footer---*/
 
@@ -583,7 +589,9 @@ form .btn:hover {
   }
   .bio-img-wrap-bottom img {
     margin-bottom: 15px;
+    margin-left: 10%;
   }
+
   #bio-top h1 {
     text-transform: uppercase;
     position: relative;
